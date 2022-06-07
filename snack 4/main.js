@@ -11,7 +11,22 @@ let students = [
 
 //nuovo array di nomi in maiuscolo
 const targa = students.map((item) => {
-    return item.name.toUpperCase()
-})
+    return item.name.toUpperCase();
+});
 
 console.log(targa);
+
+
+//nuovo array con studenti con voti superiori a 70
+const voti = students.filter((item) => {
+    return item.grades > 70;
+});
+
+console.log(voti);
+
+//nuovo array con studenti con voti superiori a 70 e id superiore a 120
+const newStudents = students.filter((item) => {
+    return item.grades > 70 && item.id > 120;
+});
+
+console.log(newStudents);
