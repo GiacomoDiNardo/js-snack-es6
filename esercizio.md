@@ -29,6 +29,11 @@ let students = [
     { name: ‘Piero’, id: 102, grades: 50 },
     { name: ‘Francesca’, id: 120, grades: 84 },
   ];
-1- Dobbiamo creare delle targhe con il loro nome in maiuscolo. Ci serve quindi un nuovo array di stringhe. Ogni elemento del nuovo array sarà il nome dello studente ma con tutte le lettere maiuscole.
+1- Dobbiamo creare delle targhe con il loro nome in maiuscolo.
+ Ci serve quindi un nuovo array di stringhe. 
+ Ogni elemento del nuovo array sarà il nome dello studente
+  ma con tutte le lettere maiuscole.
+
 2-  Dobbiamo creare un nuovo array con gli studenti che hanno un totale di voti superiore a 70
+
 3-  Dobbiamo creare un nuovo array di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
