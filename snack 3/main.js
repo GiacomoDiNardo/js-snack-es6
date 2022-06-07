@@ -19,6 +19,6 @@ const filtroNomi = myArray.filter((nome, i) => {
     if (i > min && i < max) {
         return nome;
     }
-})
+});
 
 console.log(filtroNomi);

@@ -40,10 +40,9 @@ for (let i = 0; i < bicycle.length; i++) {
             nome,
             peso,
             indice: i
-        }
+        };
     };
 }
 
 console.log(biciLeggera);
-lightBicycle.innerHTML = `La bicicletta più leggera è ${biciLeggera.nome},
-                          pesa solamente ${biciLeggera.peso}kg`;
+lightBicycle.innerHTML = `La bicicletta più leggera è ${biciLeggera.nome}, pesa solamente ${biciLeggera.peso}kg`;
