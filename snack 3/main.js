@@ -1,7 +1,7 @@
 const myArray = ["Michele", "Fabio", "Roberto", "Giovanni", "Simone", "Chiara"];
 
-let min = 1;
-let max = 5;
+let min = 3;
+let max = 6;
 
 const namesArray = [];
 
@@ -17,7 +17,7 @@ console.log(namesArray);
 //Con Filter
 const filtroNomi = myArray.filter((nome, i) => {
     if (i > min && i < max) {
-        return nome;
+        return true;
     }
 });
 
